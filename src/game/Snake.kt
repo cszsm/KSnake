@@ -14,7 +14,11 @@ class Snake(head: Coordinate, length: Int, private var direction: Direction) {
 
     fun step() {
         val newHead = body[0] + direction.getVector()
-        body.add(newHead)
+        body.add(0, newHead)
         body.removeAt(body.size - 1)
+    }
+
+    fun turn(direction: Direction) {
+        this.direction = direction
     }
 }
