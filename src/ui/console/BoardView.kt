@@ -4,9 +4,7 @@ import game.Board
 import game.Field
 import game.Position
 
-class BoardView(board: Board) {
-
-    val board = board
+class BoardView(private val board: Board) {
 
     fun print() {
         val output = StringBuilder()

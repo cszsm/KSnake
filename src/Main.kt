@@ -1,5 +1,3 @@
-package snake
-
 import game.BasicBoard
 import ui.console.BoardView
 
