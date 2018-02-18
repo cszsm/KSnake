@@ -1,5 +1,7 @@
-package game
+package game.dynamic
 
+import game.Coordinate
+import game.Direction
 import kotlin.collections.ArrayList
 
 class Snake(head: Coordinate, length: Int, private var direction: Direction) {

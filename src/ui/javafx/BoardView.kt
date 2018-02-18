@@ -1,7 +1,7 @@
 package ui.javafx
 
-import game.Board
-import game.Field
+import game.static.Board
+import game.static.Field
 import javafx.scene.canvas.GraphicsContext
 import javafx.scene.paint.Color
 

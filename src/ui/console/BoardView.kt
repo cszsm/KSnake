@@ -1,9 +1,9 @@
 package ui.console
 
-import game.Board
-import game.Field
+import game.static.Board
+import game.static.Field
 import game.Coordinate
-import game.Snake
+import game.dynamic.Snake
 
 class BoardView(private val board: Board, private val snake: Snake) {
 

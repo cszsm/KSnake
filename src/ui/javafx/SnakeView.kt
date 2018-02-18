@@ -1,6 +1,6 @@
 package ui.javafx
 
-import game.Snake
+import game.dynamic.Snake
 import javafx.scene.canvas.GraphicsContext
 import javafx.scene.paint.Color
 

@@ -1,8 +1,3 @@
-import game.BasicBoard
-import game.Coordinate
-import game.Direction
-import game.Snake
-import ui.console.BoardView
 import ui.javafx.SnakeApplication
 
 fun main(args: Array<String>) {

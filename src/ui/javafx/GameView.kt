@@ -1,9 +1,8 @@
 package ui.javafx
 
-import game.Board
-import game.Snake
+import game.static.Board
+import game.dynamic.Snake
 import javafx.scene.canvas.Canvas
-import javafx.scene.paint.Color
 
 class GameView(board: Board, snake: Snake) : Canvas(800.0, 450.0) {
 

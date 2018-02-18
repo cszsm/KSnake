@@ -1,9 +1,9 @@
 package ui.javafx
 
-import game.BasicBoard
 import game.Coordinate
 import game.Direction
-import game.Snake
+import game.dynamic.Snake
+import game.static.BoardFactory
 import javafx.application.Application
 import javafx.event.EventHandler
 import javafx.scene.Scene
@@ -16,7 +16,7 @@ class SnakeApplication : Application() {
     override fun start(stage: Stage) {
         val root = StackPane()
 
-        val board = BasicBoard()
+        val board = BoardFactory(20, 30).createEmptyBoardWithWalls()
         val snake = Snake(Coordinate(10, 20), 3, Direction.LEFT)
 
         val view = GameView(board, snake)
